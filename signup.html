@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style> 
+
+body{ 
+background-color: #FBF6D9; }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2>Signup Form</h2>
+
+<form action="/action_page.php" style="border:3px solid #000000">
+  <div class="container">
+
+    <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="First" required>
+
+    <label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="Last" required>
+
+    <label><b>E-Mail Address</b></label>
+    <input type="text" placeholder="Enter E-mail" name="E-Mail" required>
+
+     <label><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="Phone" required>
+
+     <label><b>Birthday</b></label>
+    <input type="text" placeholder="Enter Your Birthday" name="Birthday" required>
+
+     <label><b>Gender</b></label>
+    <input type="text" placeholder="Enter Your Gender" name="Gender" required>
+
+
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
+<div class="form">
+          
+          </form>
+
+        </div>
+        
+      </div>
+      
+</div> 
+
+
+</html>
